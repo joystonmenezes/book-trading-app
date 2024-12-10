@@ -39,7 +39,7 @@
     "@types/node": "~6.0.60",
     "angular-confirmation-popover": "^3.1.0",
     "async": "^2.1.5",
-    "bcrypt": "^1.0.2",
+    "bcrypt": "^5.0.0",
     "body-parser": "^1.16.1",
     "codelyzer": "~2.0.0",
     "core-js": "^2.4.1",
