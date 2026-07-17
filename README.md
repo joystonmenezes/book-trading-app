@@ -1,11 +1,27 @@
-# BookTrading
+# Book Trading App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-rc.0.
+A book trading club web app where members can list books they own and propose trades with other users. Built with Angular on the front end and a Node/Express back end.
 
-## User Stories
+Based on the freeCodeCamp "Manage a Book Trading Club" project.
 
-- I can view all books posted by every user.
-- I can add a new book.
-- I can update my settings to store my full name, city, and state.
-- I can propose a trade and wait for the other user to accept the trade.
+## Features
 
+- View all books posted by every user
+- Add a new book to your collection
+- Update your profile (full name, city, state)
+- Propose a trade for another user's book
+- Accept or decline incoming trade proposals
+
+## Tech stack
+
+- **Front end:** Angular (Angular CLI)
+- **Back end:** Node.js / Express (`server.js`, `server/`)
+- **Testing:** Karma + Protractor
+
+## Running locally
+
+```bash
+npm install
+ng serve         # front end on http://localhost:4200
+node server.js   # API server
+```
